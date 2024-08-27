@@ -14,13 +14,14 @@ export function BookmarkCard(
       shadow="sm"
       padding="md"
       style={{ textAlign: 'center' }}
-      w={180}
+      w={150}
+      mih={50}
     >
       <Card.Section>
         <Center h={100}>
           <Avatar variant="filled" radius="md" size="xl" src={props.icon} />
         </Center>
-        <Text size="md" ta="center" style={{ color: '#ccc' }}>
+        <Text size="md" ta="center" style={{ color: '#ccc' }} truncate="end">
           {props.name}
         </Text>
       </Card.Section>
@@ -40,8 +41,8 @@ export function BookmarkCardList(
     <Center>
       <Flex
         mih="50%"
-        bg="rgba(0, 0, 0, .3)"
-        gap="xs"
+        m={0}
+        gap="sm"
         justify="flex-start"
         align="flex-start"
         direction="row"

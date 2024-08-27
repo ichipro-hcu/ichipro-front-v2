@@ -1,7 +1,7 @@
 import { BookmarkCard, BookmarkCardList } from './BookmarkCard';
 
 export default {
-  title: 'Bookmark/BookmarkCard',
+  title: 'Organisms/BookmarkCard',
   component: BookmarkCard,
 };
 

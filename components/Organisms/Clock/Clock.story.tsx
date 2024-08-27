@@ -1,7 +1,7 @@
 import Clock from './Clock';
 
 export default {
-  title: 'Clock',
+  title: 'Organisms/Clock',
 };
 
 export const Usage = () => <Clock />;

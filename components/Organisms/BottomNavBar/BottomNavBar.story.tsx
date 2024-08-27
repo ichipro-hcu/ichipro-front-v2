@@ -1,7 +1,7 @@
 import { BottomNavBar } from './BottomNavBar';
 
 export default {
-  title: 'BottomNavigationBar/BottomNavBar',
+  title: 'Organisms/BottomNavBar',
   component: BottomNavBar,
 };
 

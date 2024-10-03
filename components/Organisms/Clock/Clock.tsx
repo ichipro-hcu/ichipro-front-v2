@@ -17,9 +17,9 @@ export default function Clock() {
     });
 
     return (
-        <Card shadow="xs" padding="xl" style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: 24, marginBottom: 10 }}>{formattedTime}</div>
-            <div style={{ fontSize: 16 }}>{formattedDate}</div>
-        </Card>
+      <Card shadow="xs" padding="md" style={{ textAlign: 'center' }}>
+        <div style={{ fontSize: 24, marginBottom: 8 }}>{formattedTime}</div>
+        <div style={{ fontSize: 16, marginBottom: 8 }}>{formattedDate}</div>
+      </Card>
     );
 }
